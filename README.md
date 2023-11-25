@@ -57,7 +57,7 @@ Then you will need to press enter a lot in order to proceed downwards and need t
 ```
 conda create -n WSLRAG python=3.10.0 -y
 
-python update_bashrc.py 
+python update_bashrc.py
 
 conda activate WSLRAG
 
