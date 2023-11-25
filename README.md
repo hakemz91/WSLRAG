@@ -66,7 +66,7 @@ pip install -r requirements.txt
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python==0.1.83 --no-cache-dir
 ```
 
-10. Done install! Now just close the wsl windows and then lauch again the launcher.bat and answer y. Choose which option number you want and then type it and press enter. First run will take some time because of downloading the model. After finish the selected option processing, it will ask if you want to run another command. If you do, let say after ingestion you want to run the chatting, just answer y and press enter and it will ask you again the available option.
+10. Done install! Now just close the wsl windows and then lauch again the launcher.bat and answer y. Choose which option number you want and then type it and press enter. First run will take some time because of downloading the model. After finish the selected option processing, it will ask if you want to run another option. If you do, let say after ingestion you want to run the chatting, just answer y and press enter and it will ask you again the available option.
 
 ## Export to .CSV and .TXT
 
