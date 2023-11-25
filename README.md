@@ -11,7 +11,7 @@ Minor fork of localGPT intended to be installed using WSL2 on Windows OS with NV
 
 ![Alt text](https://github.com/hakemz91/WSLRAG/blob/main/im_1.png)
 
-![Alt text](https://github.com/hakemz91/WSLLocalGPT/blob/main/QNA_UI.png)
+![Alt text](https://github.com/hakemz91/WSLRAG/blob/main/im_2x.png)
 
 ## How to Install
 
