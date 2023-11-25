@@ -68,9 +68,13 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python==0.1.8
 
 10. Done install! Now just close the wsl windows and then lauch again the launcher.bat. Choose which option number you want and then type it and press enter. First run will take some time because of downloading the model. After finish the selected option processing, it will ask if you want to run another command. If you do, let say after ingestion you want to run the chatting, just answer y and press enter and it will ask you again the available option.
 
-## Time Logging
+## Ingestion Time Logging
 
 After every ingestion for both without and with auto shutdown system, an Ingestion_time_log.txt file will be updated. So the txt file will contain the start and finish date of latest run process.
+
+## Export to CSV and txt
+
+Choose option 3 to run the chat so that it will save the chat history both into csv and txt files. A folder called local_chat_history will be created for the first run of the option.
 
 ## How to reset the vector database
 
