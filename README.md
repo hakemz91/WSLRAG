@@ -70,7 +70,7 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python==0.1.8
 
 ## Export to .CSV and .TXT
 
-Choose option 3 to run the chat so that it will save the chat history both into csv and txt files. A folder called local_chat_history will be created for the first run of the option.
+Choose option 3 to run the chat so that it will save the chat history both into csv and txt files. A folder called local_chat_history will be created for the first run of the option. However, note that over time, the txt file can be so huge like maybe thousands of histories, that it will be slow to open the file. So you can occasionally delete that file or the entire local_chat_history folder and it will be rebuilded next time you ingest files.
 
 ## Ingestion Time Logging
 
@@ -78,7 +78,7 @@ After every ingestion for both without and with auto shutdown system, an Ingesti
 
 ## Ingested Files Logging
 
-Each time you run the ingestion, a list of ingested file names are logged into file_done_ingested.log file. This is useful if you forgot whether you ingested certain files already or not. However, note that over time, the list can be so huge like maybe thousands, that it will be slow to open the file. So you can delete that file occasionally and it will be rebuilded next time you ingest files.
+Each time you run the ingestion, a list of ingested file names are logged into file_done_ingested.log file. This is useful if you forgot whether you ingested certain files already or not. However, again, note that over time, the list can be so huge like maybe thousands, that it will be slow to open the file. So you can delete that file occasionally and it will be rebuilded next time you ingest files.
 
 ## How to reset the vector database
 
