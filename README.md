@@ -9,7 +9,7 @@ Minor fork of localGPT intended to be installed using WSL2 on Windows OS with NV
 4. Option to run the chat and saving the chat history (Q&A pairs) both into csv and txt files (localGPT only save into csv).
 5. A bit of colored texts for easy reading.
 
-![Alt text](https://github.com/hakemz91/WSLLocalGPT/blob/main/Main_UI.png)
+![Alt text](https://github.com/hakemz91/WSLRAG/blob/main/im_1.png)
 
 ![Alt text](https://github.com/hakemz91/WSLLocalGPT/blob/main/QNA_UI.png)
 
