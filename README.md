@@ -1,5 +1,5 @@
 # WSLRAG
-Minor fork of localGPT intended to be installed using WSL2 in Windows OS.
+Minor fork of localGPT intended to be installed using WSL2 in Windows OS. It is improved version of previous old minor fork of localGPT which is WSLLocalGPT. So this latest one is having significant decrease in hallucination and a minor feature addition.
 
 ## Features
 
@@ -69,20 +69,11 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python==0.1.8
 
 ## Time Logging
 
-After every ingestion for both without and with auto shutdown system, a start.txt and finish.txt will be updated. So the files will contain the time and date of latest run process.
-
-## How to customize the model
-
-Default model is the best and I highly recommend you not to change it for the best result. I have tested so many models that I can affirm this. Maybe in the future will exist better model but for right now this is the best. However if you really want to change, just edit the model id in the constants.txt to the model id that you want and then save the file, BUT must be llama2 based model. And use The Bloke 4 bit quantized GPTQ model ( https://huggingface.co/TheBloke ). 
-
-```
-MODEL_ID = "TheBloke/Nous-Hermes-Llama-2-7B-GPTQ"
-MODEL_BASENAME = "model.safetensors"
-```
+After every ingestion for both without and with auto shutdown system, an Ingestion_time_log.txt file will be updated. So the txt file will contain the start and finish date of latest run process.
 
 ## How to reset the vector database
 
-Just delete the DB folder and reingesting back using option 3 or 4.
+Just delete the DB folder and reingesting back using option 4 or 5.
 
 ## Forked from awesome original LocalGPT
 https://github.com/PromtEngineer/localGPT
