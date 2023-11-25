@@ -36,7 +36,7 @@ Keep this for later instruction
 
 5. Right click the launcher.bat and replace the distro id name to the one you used and saved it, for example in this case is Ubuntu-22.04
 
-6. Lauch the launcher.bat file and it will automatically enter the for example Ubuntu-22.04
+6. Lauch the launcher.bat file, answer y and it will automatically enter the for example Ubuntu-22.04
 
 7. Now in the WSL windows, run the below command one at a time:
 
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python==0.1.83 --no-cache-dir
 ```
 
-10. Done install! Now just close the wsl windows and then lauch again the launcher.bat. Choose which option number you want and then type it and press enter. First run will take some time because of downloading the model. After finish the selected option processing, it will ask if you want to run another command. If you do, let say after ingestion you want to run the chatting, just answer y and press enter and it will ask you again the available option.
+10. Done install! Now just close the wsl windows and then lauch again the launcher.bat and answer y. Choose which option number you want and then type it and press enter. First run will take some time because of downloading the model. After finish the selected option processing, it will ask if you want to run another command. If you do, let say after ingestion you want to run the chatting, just answer y and press enter and it will ask you again the available option.
 
 ## Export to .CSV and .TXT
 
