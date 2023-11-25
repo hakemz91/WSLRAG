@@ -5,7 +5,7 @@ Minor fork of localGPT intended to be installed using WSL2 on Windows OS with NV
 
 1. Easy to use with simple options.
 2. Option to auto shutdown the PC after the ingestion is done. (useful for overnight bulk file ingestion) 
-3. Simple logging of start and finish time of ingestion.
+3. Simple logging of ingestion start and finish time.
 4. Option to run the chat and saving the chat history (Q&A pairs) both into csv and txt files (localGPT only save into csv).
 5. A bit of colored texts for easy reading.
 
