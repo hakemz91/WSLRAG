@@ -1,5 +1,5 @@
 # WSLRAG
-Minor fork of localGPT intended to be installed using WSL2 in Windows OS. It is improved version of previous old minor fork of localGPT which is WSLLocalGPT. So this latest one is having significant decrease in hallucination and a minor feature addition.
+Minor fork of localGPT intended to be installed using WSL2 on Windows OS. It is improved version of previous old minor fork of localGPT which is WSLLocalGPT. So this latest one is having significant decrease in hallucination and a minor feature addition.
 
 ## Features
 
