@@ -1,5 +1,5 @@
 # WSLRAG
-Minor fork of localGPT intended to be installed using WSL2 on Windows OS. It is improved version of my previous old minor fork of localGPT (WSLLocalGPT), and having significant decrease in hallucination and a minor feature addition.
+Minor fork of localGPT intended to be installed using WSL2 on Windows OS and NVidia graphic card. It is improved version of my previous old minor fork of localGPT (WSLLocalGPT), and having significant decrease in hallucination and a minor feature addition. And in this WSL2 installation, it will run fully GPU with a blazing fast speed. For my RTX 3060 12 GB, inference time took only around 5 to 10 seconds with a 3 GB of vector database.
 
 ## Features
 
