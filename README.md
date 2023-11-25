@@ -70,7 +70,7 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python==0.1.8
 
 ## Export to .CSV and .TXT
 
-Choose option 3 to run the chat so that it will save the chat history both into csv and txt files. A folder called local_chat_history will be created for the first run of the option. However, note that over time, the txt file can be so huge like maybe thousands of histories, that it will be slow to open the file. So you can occasionally delete that file or the entire local_chat_history folder and it will be rebuilded next time you ingest files.
+Choose option 3 to run the chat so that it will save the chat history both into csv and txt files. A folder called local_chat_history will be created for the first run of the option. However, note that over time, the txt file can be so huge like maybe thousands of histories, that it will be slow to open the file. So you can occasionally delete that file or the entire local_chat_history folder and it will be rebuilded next time you run the chat with option 3.
 
 ## Ingestion Time Logging
 
