@@ -1,12 +1,13 @@
 # WSLRAG
-Minor fork of localGPT intended to be installed using WSL2 on Windows OS. It is improved version of previous old minor fork of localGPT which is WSLLocalGPT. So this latest one is having significant decrease in hallucination and a minor feature addition.
+Minor fork of localGPT intended to be installed using WSL2 on Windows OS. It is improved version of my previous old minor fork of localGPT (WSLLocalGPT), and having significant decrease in hallucination and a minor feature addition.
 
 ## Features
 
 1. Easy to use with simple options.
 2. Option to auto shutdown the PC after the ingestion is done. (useful for overnight bulk file ingestion) 
-3. Simple logging of start and finish time of ingestion
-4. A bit of colored texts for easy reading.
+3. Simple logging of start and finish time of ingestion.
+4. Option to run the chat and saving the chat history (Q&A pairs) both into csv and txt files (localGPT only save into csv).
+5. A bit of colored texts for easy reading.
 
 ![Alt text](https://github.com/hakemz91/WSLLocalGPT/blob/main/Main_UI.png)
 
